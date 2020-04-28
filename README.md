@@ -4,7 +4,7 @@ A tool help to convert DirectX sdkmesh to obj wave front format
 
 ## How to build
 
-Please install
+Prerequisites
 -   [CMake](https://cmake.org/download/)
 -   [Visual Studio](https://visualstudio.microsoft.com/downloads/)  (2017 or higher if you want to build on Windows OS)
 
