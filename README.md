@@ -1,6 +1,6 @@
 # sdkmesh-to-obj
 
-A tool help to convert DirectX sdkmesh to Wavefront .obj file
+A tool help to convert DirectX .sdkmesh to Wavefront .obj file
 
 [![Build Status](https://github.com/ducphamhong/sdkmesh-to-obj/workflows/C/C++%20CI/badge.svg)](https://github.com/ducphamhong/sdkmesh-to-obj/actions)
 
@@ -22,5 +22,5 @@ Generate project VC
 ## Usage
 
 ```console
-    SDKMeshObjExporter.exe -i=INPUT.sdkmesh -o=OUTPUT.obj
+    SDKMeshObjExporter.exe -i INPUT.sdkmesh -o OUTPUT.obj
 ```
