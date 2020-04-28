@@ -2,6 +2,8 @@
 
 A tool help to convert DirectX sdkmesh to Wavefront .obj file
 
+![C/C++ CI](https://github.com/ducphamhong/sdkmesh-to-obj/workflows/C/C++%20CI/badge.svg)
+
 ## How to build
 
 Prerequisites
