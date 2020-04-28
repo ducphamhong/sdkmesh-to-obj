@@ -1,6 +1,8 @@
 # sdkmesh-to-obj
 
-A tool help to convert DirectX sdkmesh to obj wave front format
+A tool help to convert DirectX sdkmesh to Wavefront .obj file
+
+[![Build Status](https://github.com/ducphamhong/sdkmesh-to-obj/workflows/C/C++%20CI/badge.svg)](https://github.com/ducphamhong/sdkmesh-to-obj/actions)
 
 ## How to build
 
