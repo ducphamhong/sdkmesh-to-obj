@@ -53,7 +53,7 @@ int main(int argc, char** argv)
 	HRESULT r = sdkMesh.Create(input.c_str());
 	if (r == E_FAIL)
 	{
-		std::cout << "Open" << input.c_str() << L" Error\n";
+		std::cout << "Open " << input.c_str() << " failed!\n";
 		return -1;
 	}
 
