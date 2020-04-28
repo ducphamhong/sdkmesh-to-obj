@@ -1,6 +1,6 @@
 # sdkmesh-to-obj
 
-A tool help to convert DirectX sdkmesh to obj wave front format
+A tool help to convert DirectX sdkmesh to Wavefront .obj file
 
 ## How to build
 
