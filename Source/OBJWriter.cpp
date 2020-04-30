@@ -49,7 +49,7 @@ OBJWriter::~OBJWriter()
 
 bool OBJWriter::WriteMaterial(SDKMESH_MATERIAL *material)
 {
-	fprintf(m_mat, "newmtl mat %s\n", material->Name);
+	fprintf(m_mat, "newmtl %s\n", material->Name);
 	fprintf(m_mat, "Kd %f %f %f %f\n", 
 		material->Diffuse.x,
 		material->Diffuse.y,
@@ -258,7 +258,7 @@ bool OBJWriter::WriteSubset(UINT meshID, SDKMESH_MESH* mesh, SDKMESH_SUBSET *sub
 
 	SDKMESH_MATERIAL* mat = m_sdkMesh->GetMaterial(subset->MaterialID);
 
-	fprintf(m_file, "usemtl mat %s\n", mat->Name);
+	fprintf(m_file, "usemtl %s\n", mat->Name);
 	fprintf(m_file, "s off\n");
 	
 	if (m_sdkMesh->GetIndexType(meshID) == IT_32BIT)
